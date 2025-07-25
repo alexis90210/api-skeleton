@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SYS842 - Fast & Flexible</title>
+  <style>
+    /* styles.css */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 2em;
+      background-color: #232f3e;
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1em;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4em 2em;
+      background: linear-gradient(135deg, #007bff, #00c2ff);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.75em 1.5em;
+      background: #232f3e;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 2em;
+      background: #fff;
+    }
+
+    .feature-box {
+      width: 30%;
+      background: #e9ecef;
+      padding: 1em;
+      border-radius: 8px;
+    }
+
+    .signup {
+      text-align: center;
+      padding: 2em;
+      background: #007bff;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #232f3e;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">SYS842</div>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#docs">Docs</a></li>
+        <li><a href="#signup">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Empower Your Apps with SYS842</h1>
+    <p>Lightning-fast. Developer-friendly. Built for scale.</p>
+    <a href="#signup" class="cta">Start Building</a>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature-box">
+      <h2>🔌 Easy Integration</h2>
+      <p>Use REST or GraphQL endpoints with quick setup.</p>
+    </div>
+    <div class="feature-box">
+      <h2>⚡ Performance</h2>
+      <p>Optimized infrastructure for low-latency responses.</p>
+    </div>
+    <div class="feature-box">
+      <h2>🔒 Security First</h2>
+      <p>OAuth2, rate limiting, and data encryption by default.</p>
+    </div>
+  </section>
+
+  <section id="signup" class="signup">
+    <h2>Get Your API Key Now</h2>
+    <p>Join thousands of developers building with SYS842.</p>
+    <a href="#" class="cta">Sign Up</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SYS842. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
